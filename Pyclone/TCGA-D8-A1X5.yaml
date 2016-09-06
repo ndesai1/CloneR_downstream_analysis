@@ -1,0 +1,235 @@
+mutations:
+- id: TCGA-D8-A1X5:3:43596874:C
+  ref_counts: 22
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 18
+- id: TCGA-D8-A1X5:11:26620415:G
+  ref_counts: 33
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 6
+- id: TCGA-D8-A1X5:2:21234906:A
+  ref_counts: 39
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 12
+- id: TCGA-D8-A1X5:1:151018589:C
+  ref_counts: 64
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAA, g_v: AAAAB, prior_weight: 1}
+  var_counts: 15
+- id: TCGA-D8-A1X5:5:40959618:A
+  ref_counts: 26
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAA, g_v: AAAB, prior_weight: 1}
+  var_counts: 31
+- id: TCGA-D8-A1X5:2:97498311:C
+  ref_counts: 31
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:8:139856380:C
+  ref_counts: 102
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAAAA, g_v: AAAAAAB, prior_weight: 1}
+  var_counts: 21
+- id: TCGA-D8-A1X5:11:61094351:C
+  ref_counts: 26
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:12:16115830:G
+  ref_counts: 47
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:6:7582932:G
+  ref_counts: 34
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAA, g_v: AAAAB, prior_weight: 1}
+  var_counts: 27
+- id: TCGA-D8-A1X5:2:119600587:G
+  ref_counts: 27
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 12
+- id: TCGA-D8-A1X5:4:187077211:C
+  ref_counts: 52
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 10
+- id: TCGA-D8-A1X5:1:240256746:G
+  ref_counts: 26
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAAAA, g_v: AAAAAAB, prior_weight: 1}
+  var_counts: 6
+- id: TCGA-D8-A1X5:6:112015900:T
+  ref_counts: 31
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAA, g_v: AAAB, prior_weight: 1}
+  var_counts: 23
+- id: TCGA-D8-A1X5:6:101847171:G
+  ref_counts: 56
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAA, g_v: AAAB, prior_weight: 1}
+  var_counts: 9
+- id: TCGA-D8-A1X5:7:30795418:C
+  ref_counts: 17
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 13
+- id: TCGA-D8-A1X5:3:49168209:G
+  ref_counts: 35
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:2:210560612:G
+  ref_counts: 39
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 9
+- id: TCGA-D8-A1X5:11:60184021:C
+  ref_counts: 30
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 6
+- id: TCGA-D8-A1X5:6:28269126:G
+  ref_counts: 39
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 12
+- id: TCGA-D8-A1X5:2:28775833:C
+  ref_counts: 49
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 10
+- id: TCGA-D8-A1X5:7:73651677:G
+  ref_counts: 29
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:6:13977923:G
+  ref_counts: 105
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAA, g_v: AAAAB, prior_weight: 1}
+  var_counts: 34
+- id: TCGA-D8-A1X5:11:130781614:T
+  ref_counts: 29
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 29
+- id: TCGA-D8-A1X5:18:66354926:G
+  ref_counts: 38
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 16
+- id: TCGA-D8-A1X5:17:73520470:T
+  ref_counts: 55
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAAA, g_v: AAAAAB, prior_weight: 1}
+  var_counts: 10
+- id: TCGA-D8-A1X5:9:35295823:G
+  ref_counts: 14
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 24
+- id: TCGA-D8-A1X5:20:61834989:G
+  ref_counts: 65
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAAAA, g_v: AAAAAAB, prior_weight: 1}
+  var_counts: 17
+- id: TCGA-D8-A1X5:2:43453434:G
+  ref_counts: 21
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:19:44778658:G
+  ref_counts: 61
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: ABB, prior_weight: 1}
+  - {g_n: AA, g_r: AAA, g_v: AAB, prior_weight: 1}
+  var_counts: 16
+- id: TCGA-D8-A1X5:1:238051727:C
+  ref_counts: 73
+  states:
+  - {g_n: AA, g_r: AA, g_v: AAAAAAB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAAABB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAAABBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AAABBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: AABBBBB, prior_weight: 1}
+  - {g_n: AA, g_r: AAAAAAA, g_v: AAAAAAB, prior_weight: 1}
+  var_counts: 11
+- id: TCGA-D8-A1X5:9:5988477:C
+  ref_counts: 47
+  states:
+  - {g_n: AA, g_r: AA, g_v: AB, prior_weight: 1}
+  - {g_n: AA, g_r: AA, g_v: BB, prior_weight: 1}
+  var_counts: 8

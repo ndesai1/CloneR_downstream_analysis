@@ -1,0 +1,4030 @@
+num_iters: 10000
+
+base_measure_params:
+  alpha: 1
+  beta: 1
+
+concentration:
+  value: 1.0
+  
+  prior:
+    shape: 1.0
+    rate: 0.001
+
+density: pyclone_beta_binomial
+
+beta_binomial_precision_params:
+  value: 1000
+
+  prior:
+    shape: 1.0
+    rate: 0.0001
+
+  proposal:
+    precision: 0.01
+
+working_dir: /Users/matteo/Lavoro/KCL/Clonal
+
+trace_dir: trace
+
+samples:
+  TCGA-AN-A04C:
+    mutations_file: Pyclone/TCGA-AN-A04C.yaml
+
+    tumour_content:
+      value: 0.44
+
+    error_rate: 0.001
+
+  TCGA-AN-A04D:
+    mutations_file: Pyclone/TCGA-AN-A04D.yaml
+
+    tumour_content:
+      value: 0.445
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AJ:
+    mutations_file: Pyclone/TCGA-AN-A0AJ.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AL:
+    mutations_file: Pyclone/TCGA-AN-A0AL.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AM:
+    mutations_file: Pyclone/TCGA-AN-A0AM.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AR:
+    mutations_file: Pyclone/TCGA-AN-A0AR.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AS:
+    mutations_file: Pyclone/TCGA-AN-A0AS.yaml
+
+    tumour_content:
+      value: 0.395
+
+    error_rate: 0.001
+
+  TCGA-AN-A0AT:
+    mutations_file: Pyclone/TCGA-AN-A0AT.yaml
+
+    tumour_content:
+      value: 0.36
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FD:
+    mutations_file: Pyclone/TCGA-AN-A0FD.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FF:
+    mutations_file: Pyclone/TCGA-AN-A0FF.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FJ:
+    mutations_file: Pyclone/TCGA-AN-A0FJ.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FK:
+    mutations_file: Pyclone/TCGA-AN-A0FK.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FL:
+    mutations_file: Pyclone/TCGA-AN-A0FL.yaml
+
+    tumour_content:
+      value: 0.495
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FN:
+    mutations_file: Pyclone/TCGA-AN-A0FN.yaml
+
+    tumour_content:
+      value: 0.45
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FS:
+    mutations_file: Pyclone/TCGA-AN-A0FS.yaml
+
+    tumour_content:
+      value: 0.36
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FT:
+    mutations_file: Pyclone/TCGA-AN-A0FT.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FV:
+    mutations_file: Pyclone/TCGA-AN-A0FV.yaml
+
+    tumour_content:
+      value: 0.29
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FW:
+    mutations_file: Pyclone/TCGA-AN-A0FW.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FX:
+    mutations_file: Pyclone/TCGA-AN-A0FX.yaml
+
+    tumour_content:
+      value: 0.325
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FY:
+    mutations_file: Pyclone/TCGA-AN-A0FY.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AN-A0FZ:
+    mutations_file: Pyclone/TCGA-AN-A0FZ.yaml
+
+    tumour_content:
+      value: 0.335
+
+    error_rate: 0.001
+
+  TCGA-AN-A0G0:
+    mutations_file: Pyclone/TCGA-AN-A0G0.yaml
+
+    tumour_content:
+      value: 0.57
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XL:
+    mutations_file: Pyclone/TCGA-AN-A0XL.yaml
+
+    tumour_content:
+      value: 0.3
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XN:
+    mutations_file: Pyclone/TCGA-AN-A0XN.yaml
+
+    tumour_content:
+      value: 0.23
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XO:
+    mutations_file: Pyclone/TCGA-AN-A0XO.yaml
+
+    tumour_content:
+      value: 0.595
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XP:
+    mutations_file: Pyclone/TCGA-AN-A0XP.yaml
+
+    tumour_content:
+      value: 0.27
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XR:
+    mutations_file: Pyclone/TCGA-AN-A0XR.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XS:
+    mutations_file: Pyclone/TCGA-AN-A0XS.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XT:
+    mutations_file: Pyclone/TCGA-AN-A0XT.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XU:
+    mutations_file: Pyclone/TCGA-AN-A0XU.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XV:
+    mutations_file: Pyclone/TCGA-AN-A0XV.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-AN-A0XW:
+    mutations_file: Pyclone/TCGA-AN-A0XW.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AO-A03L:
+    mutations_file: Pyclone/TCGA-AO-A03L.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AO-A03N:
+    mutations_file: Pyclone/TCGA-AO-A03N.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AO-A03O:
+    mutations_file: Pyclone/TCGA-AO-A03O.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-AO-A03P:
+    mutations_file: Pyclone/TCGA-AO-A03P.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-AO-A03R:
+    mutations_file: Pyclone/TCGA-AO-A03R.yaml
+
+    tumour_content:
+      value: 0.35
+
+    error_rate: 0.001
+
+  TCGA-AO-A03T:
+    mutations_file: Pyclone/TCGA-AO-A03T.yaml
+
+    tumour_content:
+      value: 0.385
+
+    error_rate: 0.001
+
+  TCGA-AO-A03U:
+    mutations_file: Pyclone/TCGA-AO-A03U.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AO-A03V:
+    mutations_file: Pyclone/TCGA-AO-A03V.yaml
+
+    tumour_content:
+      value: 0.21
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J2:
+    mutations_file: Pyclone/TCGA-AO-A0J2.yaml
+
+    tumour_content:
+      value: 0.58
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J3:
+    mutations_file: Pyclone/TCGA-AO-A0J3.yaml
+
+    tumour_content:
+      value: 0.49
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J4:
+    mutations_file: Pyclone/TCGA-AO-A0J4.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J5:
+    mutations_file: Pyclone/TCGA-AO-A0J5.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J6:
+    mutations_file: Pyclone/TCGA-AO-A0J6.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J7:
+    mutations_file: Pyclone/TCGA-AO-A0J7.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J8:
+    mutations_file: Pyclone/TCGA-AO-A0J8.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A0J9:
+    mutations_file: Pyclone/TCGA-AO-A0J9.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JA:
+    mutations_file: Pyclone/TCGA-AO-A0JA.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JB:
+    mutations_file: Pyclone/TCGA-AO-A0JB.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JC:
+    mutations_file: Pyclone/TCGA-AO-A0JC.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JD:
+    mutations_file: Pyclone/TCGA-AO-A0JD.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JE:
+    mutations_file: Pyclone/TCGA-AO-A0JE.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JF:
+    mutations_file: Pyclone/TCGA-AO-A0JF.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JI:
+    mutations_file: Pyclone/TCGA-AO-A0JI.yaml
+
+    tumour_content:
+      value: 0.23
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JJ:
+    mutations_file: Pyclone/TCGA-AO-A0JJ.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JL:
+    mutations_file: Pyclone/TCGA-AO-A0JL.yaml
+
+    tumour_content:
+      value: 0.53
+
+    error_rate: 0.001
+
+  TCGA-AO-A0JM:
+    mutations_file: Pyclone/TCGA-AO-A0JM.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-AO-A124:
+    mutations_file: Pyclone/TCGA-AO-A124.yaml
+
+    tumour_content:
+      value: 0.44
+
+    error_rate: 0.001
+
+  TCGA-AO-A126:
+    mutations_file: Pyclone/TCGA-AO-A126.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AO-A129:
+    mutations_file: Pyclone/TCGA-AO-A129.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AO-A12A:
+    mutations_file: Pyclone/TCGA-AO-A12A.yaml
+
+    tumour_content:
+      value: 0.595
+
+    error_rate: 0.001
+
+  TCGA-AO-A12B:
+    mutations_file: Pyclone/TCGA-AO-A12B.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-AO-A12F:
+    mutations_file: Pyclone/TCGA-AO-A12F.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-AO-A12G:
+    mutations_file: Pyclone/TCGA-AO-A12G.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A12H:
+    mutations_file: Pyclone/TCGA-AO-A12H.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AO-A1KP:
+    mutations_file: Pyclone/TCGA-AO-A1KP.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AO-A1KR:
+    mutations_file: Pyclone/TCGA-AO-A1KR.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-AO-A1KS:
+    mutations_file: Pyclone/TCGA-AO-A1KS.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AO-A1KT:
+    mutations_file: Pyclone/TCGA-AO-A1KT.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AQ-A04H:
+    mutations_file: Pyclone/TCGA-AQ-A04H.yaml
+
+    tumour_content:
+      value: 0.235
+
+    error_rate: 0.001
+
+  TCGA-AQ-A04J:
+    mutations_file: Pyclone/TCGA-AQ-A04J.yaml
+
+    tumour_content:
+      value: 0.315
+
+    error_rate: 0.001
+
+  TCGA-AQ-A0Y5:
+    mutations_file: Pyclone/TCGA-AQ-A0Y5.yaml
+
+    tumour_content:
+      value: 0.1
+
+    error_rate: 0.001
+
+  TCGA-AQ-A1H2:
+    mutations_file: Pyclone/TCGA-AQ-A1H2.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AQ-A1H3:
+    mutations_file: Pyclone/TCGA-AQ-A1H3.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-AR-A0TS:
+    mutations_file: Pyclone/TCGA-AR-A0TS.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AR-A0TX:
+    mutations_file: Pyclone/TCGA-AR-A0TX.yaml
+
+    tumour_content:
+      value: 0.44
+
+    error_rate: 0.001
+
+  TCGA-AR-A0TY:
+    mutations_file: Pyclone/TCGA-AR-A0TY.yaml
+
+    tumour_content:
+      value: 0.24
+
+    error_rate: 0.001
+
+  TCGA-AR-A0U0:
+    mutations_file: Pyclone/TCGA-AR-A0U0.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AR-A0U2:
+    mutations_file: Pyclone/TCGA-AR-A0U2.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-AR-A0U3:
+    mutations_file: Pyclone/TCGA-AR-A0U3.yaml
+
+    tumour_content:
+      value: 0.52
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AH:
+    mutations_file: Pyclone/TCGA-AR-A1AH.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AI:
+    mutations_file: Pyclone/TCGA-AR-A1AI.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AJ:
+    mutations_file: Pyclone/TCGA-AR-A1AJ.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AK:
+    mutations_file: Pyclone/TCGA-AR-A1AK.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AL:
+    mutations_file: Pyclone/TCGA-AR-A1AL.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AM:
+    mutations_file: Pyclone/TCGA-AR-A1AM.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AN:
+    mutations_file: Pyclone/TCGA-AR-A1AN.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AP:
+    mutations_file: Pyclone/TCGA-AR-A1AP.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AQ:
+    mutations_file: Pyclone/TCGA-AR-A1AQ.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AR:
+    mutations_file: Pyclone/TCGA-AR-A1AR.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AS:
+    mutations_file: Pyclone/TCGA-AR-A1AS.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AU:
+    mutations_file: Pyclone/TCGA-AR-A1AU.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AV:
+    mutations_file: Pyclone/TCGA-AR-A1AV.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AX:
+    mutations_file: Pyclone/TCGA-AR-A1AX.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AR-A1AY:
+    mutations_file: Pyclone/TCGA-AR-A1AY.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A24H:
+    mutations_file: Pyclone/TCGA-AR-A24H.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-AR-A24K:
+    mutations_file: Pyclone/TCGA-AR-A24K.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-AR-A24L:
+    mutations_file: Pyclone/TCGA-AR-A24L.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A24M:
+    mutations_file: Pyclone/TCGA-AR-A24M.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-AR-A24N:
+    mutations_file: Pyclone/TCGA-AR-A24N.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-AR-A24O:
+    mutations_file: Pyclone/TCGA-AR-A24O.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A24P:
+    mutations_file: Pyclone/TCGA-AR-A24P.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-AR-A24Q:
+    mutations_file: Pyclone/TCGA-AR-A24Q.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-AR-A24R:
+    mutations_file: Pyclone/TCGA-AR-A24R.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-AR-A24S:
+    mutations_file: Pyclone/TCGA-AR-A24S.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AR-A24T:
+    mutations_file: Pyclone/TCGA-AR-A24T.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AR-A24V:
+    mutations_file: Pyclone/TCGA-AR-A24V.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AR-A24W:
+    mutations_file: Pyclone/TCGA-AR-A24W.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-AR-A24X:
+    mutations_file: Pyclone/TCGA-AR-A24X.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AR-A24Z:
+    mutations_file: Pyclone/TCGA-AR-A24Z.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AR-A250:
+    mutations_file: Pyclone/TCGA-AR-A250.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-AR-A251:
+    mutations_file: Pyclone/TCGA-AR-A251.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AR-A254:
+    mutations_file: Pyclone/TCGA-AR-A254.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-AR-A255:
+    mutations_file: Pyclone/TCGA-AR-A255.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-AR-A256:
+    mutations_file: Pyclone/TCGA-AR-A256.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LE:
+    mutations_file: Pyclone/TCGA-AR-A2LE.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LJ:
+    mutations_file: Pyclone/TCGA-AR-A2LJ.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LK:
+    mutations_file: Pyclone/TCGA-AR-A2LK.yaml
+
+    tumour_content:
+      value: 0.23
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LL:
+    mutations_file: Pyclone/TCGA-AR-A2LL.yaml
+
+    tumour_content:
+      value: 0.28
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LM:
+    mutations_file: Pyclone/TCGA-AR-A2LM.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LN:
+    mutations_file: Pyclone/TCGA-AR-A2LN.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LO:
+    mutations_file: Pyclone/TCGA-AR-A2LO.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LQ:
+    mutations_file: Pyclone/TCGA-AR-A2LQ.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-AR-A2LR:
+    mutations_file: Pyclone/TCGA-AR-A2LR.yaml
+
+    tumour_content:
+      value: 0.14
+
+    error_rate: 0.001
+
+  TCGA-AU-3779:
+    mutations_file: Pyclone/TCGA-AU-3779.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-AU-6004:
+    mutations_file: Pyclone/TCGA-AU-6004.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-AY-5543:
+    mutations_file: Pyclone/TCGA-AY-5543.yaml
+
+    tumour_content:
+      value: 0.82
+
+    error_rate: 0.001
+
+  TCGA-AY-6196:
+    mutations_file: Pyclone/TCGA-AY-6196.yaml
+
+    tumour_content:
+      value: 0.4
+
+    error_rate: 0.001
+
+  TCGA-AY-6197:
+    mutations_file: Pyclone/TCGA-AY-6197.yaml
+
+    tumour_content:
+      value: 0.865
+
+    error_rate: 0.001
+
+  TCGA-AZ-4615:
+    mutations_file: Pyclone/TCGA-AZ-4615.yaml
+
+    tumour_content:
+      value: 0.775
+
+    error_rate: 0.001
+
+  TCGA-AZ-4616:
+    mutations_file: Pyclone/TCGA-AZ-4616.yaml
+
+    tumour_content:
+      value: 0.775
+
+    error_rate: 0.001
+
+  TCGA-AZ-4682:
+    mutations_file: Pyclone/TCGA-AZ-4682.yaml
+
+    tumour_content:
+      value: 0.645
+
+    error_rate: 0.001
+
+  TCGA-AZ-5403:
+    mutations_file: Pyclone/TCGA-AZ-5403.yaml
+
+    tumour_content:
+      value: 0.61
+
+    error_rate: 0.001
+
+  TCGA-AZ-6599:
+    mutations_file: Pyclone/TCGA-AZ-6599.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-AZ-6600:
+    mutations_file: Pyclone/TCGA-AZ-6600.yaml
+
+    tumour_content:
+      value: 0.575
+
+    error_rate: 0.001
+
+  TCGA-AZ-6601:
+    mutations_file: Pyclone/TCGA-AZ-6601.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-AZ-6603:
+    mutations_file: Pyclone/TCGA-AZ-6603.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I1:
+    mutations_file: Pyclone/TCGA-B6-A0I1.yaml
+
+    tumour_content:
+      value: 0.345
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I2:
+    mutations_file: Pyclone/TCGA-B6-A0I2.yaml
+
+    tumour_content:
+      value: 0.58
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I5:
+    mutations_file: Pyclone/TCGA-B6-A0I5.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I6:
+    mutations_file: Pyclone/TCGA-B6-A0I6.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I8:
+    mutations_file: Pyclone/TCGA-B6-A0I8.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-B6-A0I9:
+    mutations_file: Pyclone/TCGA-B6-A0I9.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IA:
+    mutations_file: Pyclone/TCGA-B6-A0IA.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IB:
+    mutations_file: Pyclone/TCGA-B6-A0IB.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IC:
+    mutations_file: Pyclone/TCGA-B6-A0IC.yaml
+
+    tumour_content:
+      value: 0.595
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IE:
+    mutations_file: Pyclone/TCGA-B6-A0IE.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IG:
+    mutations_file: Pyclone/TCGA-B6-A0IG.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IH:
+    mutations_file: Pyclone/TCGA-B6-A0IH.yaml
+
+    tumour_content:
+      value: 0.29
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IJ:
+    mutations_file: Pyclone/TCGA-B6-A0IJ.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IK:
+    mutations_file: Pyclone/TCGA-B6-A0IK.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IM:
+    mutations_file: Pyclone/TCGA-B6-A0IM.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IN:
+    mutations_file: Pyclone/TCGA-B6-A0IN.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IO:
+    mutations_file: Pyclone/TCGA-B6-A0IO.yaml
+
+    tumour_content:
+      value: 0.53
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IP:
+    mutations_file: Pyclone/TCGA-B6-A0IP.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-B6-A0IQ:
+    mutations_file: Pyclone/TCGA-B6-A0IQ.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RE:
+    mutations_file: Pyclone/TCGA-B6-A0RE.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RG:
+    mutations_file: Pyclone/TCGA-B6-A0RG.yaml
+
+    tumour_content:
+      value: 0.35
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RH:
+    mutations_file: Pyclone/TCGA-B6-A0RH.yaml
+
+    tumour_content:
+      value: 0.165
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RI:
+    mutations_file: Pyclone/TCGA-B6-A0RI.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RN:
+    mutations_file: Pyclone/TCGA-B6-A0RN.yaml
+
+    tumour_content:
+      value: 0.47
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RO:
+    mutations_file: Pyclone/TCGA-B6-A0RO.yaml
+
+    tumour_content:
+      value: 0.34
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RP:
+    mutations_file: Pyclone/TCGA-B6-A0RP.yaml
+
+    tumour_content:
+      value: 0.38
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RU:
+    mutations_file: Pyclone/TCGA-B6-A0RU.yaml
+
+    tumour_content:
+      value: 0.445
+
+    error_rate: 0.001
+
+  TCGA-B6-A0RV:
+    mutations_file: Pyclone/TCGA-B6-A0RV.yaml
+
+    tumour_content:
+      value: 0.49
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WS:
+    mutations_file: Pyclone/TCGA-B6-A0WS.yaml
+
+    tumour_content:
+      value: 0.325
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WT:
+    mutations_file: Pyclone/TCGA-B6-A0WT.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WV:
+    mutations_file: Pyclone/TCGA-B6-A0WV.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WW:
+    mutations_file: Pyclone/TCGA-B6-A0WW.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WX:
+    mutations_file: Pyclone/TCGA-B6-A0WX.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WY:
+    mutations_file: Pyclone/TCGA-B6-A0WY.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-B6-A0WZ:
+    mutations_file: Pyclone/TCGA-B6-A0WZ.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-B6-A0X0:
+    mutations_file: Pyclone/TCGA-B6-A0X0.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-B6-A0X1:
+    mutations_file: Pyclone/TCGA-B6-A0X1.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-B6-A0X5:
+    mutations_file: Pyclone/TCGA-B6-A0X5.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-B6-A0X7:
+    mutations_file: Pyclone/TCGA-B6-A0X7.yaml
+
+    tumour_content:
+      value: 0.275
+
+    error_rate: 0.001
+
+  TCGA-B6-A1KC:
+    mutations_file: Pyclone/TCGA-B6-A1KC.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-B6-A1KF:
+    mutations_file: Pyclone/TCGA-B6-A1KF.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-B6-A1KI:
+    mutations_file: Pyclone/TCGA-B6-A1KI.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-B6-A1KN:
+    mutations_file: Pyclone/TCGA-B6-A1KN.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-B6-A2IU:
+    mutations_file: Pyclone/TCGA-B6-A2IU.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-BA-4074:
+    mutations_file: Pyclone/TCGA-BA-4074.yaml
+
+    tumour_content:
+      value: 0.88
+
+    error_rate: 0.001
+
+  TCGA-BA-4075:
+    mutations_file: Pyclone/TCGA-BA-4075.yaml
+
+    tumour_content:
+      value: 0.725
+
+    error_rate: 0.001
+
+  TCGA-BA-4076:
+    mutations_file: Pyclone/TCGA-BA-4076.yaml
+
+    tumour_content:
+      value: 0.95
+
+    error_rate: 0.001
+
+  TCGA-BA-4077:
+    mutations_file: Pyclone/TCGA-BA-4077.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BA-4078:
+    mutations_file: Pyclone/TCGA-BA-4078.yaml
+
+    tumour_content:
+      value: 0.825
+
+    error_rate: 0.001
+
+  TCGA-BA-5149:
+    mutations_file: Pyclone/TCGA-BA-5149.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-BA-5151:
+    mutations_file: Pyclone/TCGA-BA-5151.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BA-5152:
+    mutations_file: Pyclone/TCGA-BA-5152.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-BA-5153:
+    mutations_file: Pyclone/TCGA-BA-5153.yaml
+
+    tumour_content:
+      value: 0.835
+
+    error_rate: 0.001
+
+  TCGA-BA-5555:
+    mutations_file: Pyclone/TCGA-BA-5555.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-BA-5556:
+    mutations_file: Pyclone/TCGA-BA-5556.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BA-5557:
+    mutations_file: Pyclone/TCGA-BA-5557.yaml
+
+    tumour_content:
+      value: 0.64
+
+    error_rate: 0.001
+
+  TCGA-BA-5558:
+    mutations_file: Pyclone/TCGA-BA-5558.yaml
+
+    tumour_content:
+      value: 0.83
+
+    error_rate: 0.001
+
+  TCGA-BA-5559:
+    mutations_file: Pyclone/TCGA-BA-5559.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BA-6868:
+    mutations_file: Pyclone/TCGA-BA-6868.yaml
+
+    tumour_content:
+      value: 0.4
+
+    error_rate: 0.001
+
+  TCGA-BA-6869:
+    mutations_file: Pyclone/TCGA-BA-6869.yaml
+
+    tumour_content:
+      value: 0.885
+
+    error_rate: 0.001
+
+  TCGA-BA-6870:
+    mutations_file: Pyclone/TCGA-BA-6870.yaml
+
+    tumour_content:
+      value: 0.96
+
+    error_rate: 0.001
+
+  TCGA-BA-6871:
+    mutations_file: Pyclone/TCGA-BA-6871.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BA-6872:
+    mutations_file: Pyclone/TCGA-BA-6872.yaml
+
+    tumour_content:
+      value: 0.925
+
+    error_rate: 0.001
+
+  TCGA-BA-6873:
+    mutations_file: Pyclone/TCGA-BA-6873.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BA-7269:
+    mutations_file: Pyclone/TCGA-BA-7269.yaml
+
+    tumour_content:
+      value: 1
+
+    error_rate: 0.001
+
+  TCGA-BB-4223:
+    mutations_file: Pyclone/TCGA-BB-4223.yaml
+
+    tumour_content:
+      value: 0.855
+
+    error_rate: 0.001
+
+  TCGA-BB-4224:
+    mutations_file: Pyclone/TCGA-BB-4224.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BB-4225:
+    mutations_file: Pyclone/TCGA-BB-4225.yaml
+
+    tumour_content:
+      value: 0.855
+
+    error_rate: 0.001
+
+  TCGA-BB-4227:
+    mutations_file: Pyclone/TCGA-BB-4227.yaml
+
+    tumour_content:
+      value: 0.88
+
+    error_rate: 0.001
+
+  TCGA-BB-4228:
+    mutations_file: Pyclone/TCGA-BB-4228.yaml
+
+    tumour_content:
+      value: 0.785
+
+    error_rate: 0.001
+
+  TCGA-BB-7861:
+    mutations_file: Pyclone/TCGA-BB-7861.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BB-7862:
+    mutations_file: Pyclone/TCGA-BB-7862.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BB-7863:
+    mutations_file: Pyclone/TCGA-BB-7863.yaml
+
+    tumour_content:
+      value: 0.925
+
+    error_rate: 0.001
+
+  TCGA-BB-7864:
+    mutations_file: Pyclone/TCGA-BB-7864.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BB-7870:
+    mutations_file: Pyclone/TCGA-BB-7870.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BB-7871:
+    mutations_file: Pyclone/TCGA-BB-7871.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BB-7872:
+    mutations_file: Pyclone/TCGA-BB-7872.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-BH-A0AU:
+    mutations_file: Pyclone/TCGA-BH-A0AU.yaml
+
+    tumour_content:
+      value: 0.41
+
+    error_rate: 0.001
+
+  TCGA-BH-A0AV:
+    mutations_file: Pyclone/TCGA-BH-A0AV.yaml
+
+    tumour_content:
+      value: 0.29
+
+    error_rate: 0.001
+
+  TCGA-BH-A0AW:
+    mutations_file: Pyclone/TCGA-BH-A0AW.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-BH-A0AY:
+    mutations_file: Pyclone/TCGA-BH-A0AY.yaml
+
+    tumour_content:
+      value: 0.59
+
+    error_rate: 0.001
+
+  TCGA-BH-A0AZ:
+    mutations_file: Pyclone/TCGA-BH-A0AZ.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B0:
+    mutations_file: Pyclone/TCGA-BH-A0B0.yaml
+
+    tumour_content:
+      value: 0.435
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B1:
+    mutations_file: Pyclone/TCGA-BH-A0B1.yaml
+
+    tumour_content:
+      value: 0.075
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B3:
+    mutations_file: Pyclone/TCGA-BH-A0B3.yaml
+
+    tumour_content:
+      value: 0.5
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B4:
+    mutations_file: Pyclone/TCGA-BH-A0B4.yaml
+
+    tumour_content:
+      value: 0.52
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B5:
+    mutations_file: Pyclone/TCGA-BH-A0B5.yaml
+
+    tumour_content:
+      value: 0.35
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B7:
+    mutations_file: Pyclone/TCGA-BH-A0B7.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B8:
+    mutations_file: Pyclone/TCGA-BH-A0B8.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-BH-A0B9:
+    mutations_file: Pyclone/TCGA-BH-A0B9.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BA:
+    mutations_file: Pyclone/TCGA-BH-A0BA.yaml
+
+    tumour_content:
+      value: 0.365
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BC:
+    mutations_file: Pyclone/TCGA-BH-A0BC.yaml
+
+    tumour_content:
+      value: 0.435
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BD:
+    mutations_file: Pyclone/TCGA-BH-A0BD.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BF:
+    mutations_file: Pyclone/TCGA-BH-A0BF.yaml
+
+    tumour_content:
+      value: 0.525
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BG:
+    mutations_file: Pyclone/TCGA-BH-A0BG.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BJ:
+    mutations_file: Pyclone/TCGA-BH-A0BJ.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BL:
+    mutations_file: Pyclone/TCGA-BH-A0BL.yaml
+
+    tumour_content:
+      value: 0.36
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BM:
+    mutations_file: Pyclone/TCGA-BH-A0BM.yaml
+
+    tumour_content:
+      value: 0.59
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BP:
+    mutations_file: Pyclone/TCGA-BH-A0BP.yaml
+
+    tumour_content:
+      value: 0.165
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BR:
+    mutations_file: Pyclone/TCGA-BH-A0BR.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BS:
+    mutations_file: Pyclone/TCGA-BH-A0BS.yaml
+
+    tumour_content:
+      value: 0.39
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BT:
+    mutations_file: Pyclone/TCGA-BH-A0BT.yaml
+
+    tumour_content:
+      value: 0.5
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BV:
+    mutations_file: Pyclone/TCGA-BH-A0BV.yaml
+
+    tumour_content:
+      value: 0.505
+
+    error_rate: 0.001
+
+  TCGA-BH-A0BW:
+    mutations_file: Pyclone/TCGA-BH-A0BW.yaml
+
+    tumour_content:
+      value: 0.4
+
+    error_rate: 0.001
+
+  TCGA-BH-A0C0:
+    mutations_file: Pyclone/TCGA-BH-A0C0.yaml
+
+    tumour_content:
+      value: 0.57
+
+    error_rate: 0.001
+
+  TCGA-BH-A0C1:
+    mutations_file: Pyclone/TCGA-BH-A0C1.yaml
+
+    tumour_content:
+      value: 0.395
+
+    error_rate: 0.001
+
+  TCGA-BH-A0C3:
+    mutations_file: Pyclone/TCGA-BH-A0C3.yaml
+
+    tumour_content:
+      value: 0.115
+
+    error_rate: 0.001
+
+  TCGA-BH-A0C7:
+    mutations_file: Pyclone/TCGA-BH-A0C7.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DD:
+    mutations_file: Pyclone/TCGA-BH-A0DD.yaml
+
+    tumour_content:
+      value: 0.27
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DE:
+    mutations_file: Pyclone/TCGA-BH-A0DE.yaml
+
+    tumour_content:
+      value: 0.175
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DG:
+    mutations_file: Pyclone/TCGA-BH-A0DG.yaml
+
+    tumour_content:
+      value: 0.47
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DH:
+    mutations_file: Pyclone/TCGA-BH-A0DH.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DI:
+    mutations_file: Pyclone/TCGA-BH-A0DI.yaml
+
+    tumour_content:
+      value: 0.265
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DK:
+    mutations_file: Pyclone/TCGA-BH-A0DK.yaml
+
+    tumour_content:
+      value: 0.43
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DL:
+    mutations_file: Pyclone/TCGA-BH-A0DL.yaml
+
+    tumour_content:
+      value: 0.455
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DO:
+    mutations_file: Pyclone/TCGA-BH-A0DO.yaml
+
+    tumour_content:
+      value: 0.345
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DP:
+    mutations_file: Pyclone/TCGA-BH-A0DP.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DQ:
+    mutations_file: Pyclone/TCGA-BH-A0DQ.yaml
+
+    tumour_content:
+      value: 0.435
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DS:
+    mutations_file: Pyclone/TCGA-BH-A0DS.yaml
+
+    tumour_content:
+      value: 0.105
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DT:
+    mutations_file: Pyclone/TCGA-BH-A0DT.yaml
+
+    tumour_content:
+      value: 0.3
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DX:
+    mutations_file: Pyclone/TCGA-BH-A0DX.yaml
+
+    tumour_content:
+      value: 0.145
+
+    error_rate: 0.001
+
+  TCGA-BH-A0DZ:
+    mutations_file: Pyclone/TCGA-BH-A0DZ.yaml
+
+    tumour_content:
+      value: 0.45
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E0:
+    mutations_file: Pyclone/TCGA-BH-A0E0.yaml
+
+    tumour_content:
+      value: 0.665
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E1:
+    mutations_file: Pyclone/TCGA-BH-A0E1.yaml
+
+    tumour_content:
+      value: 0.395
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E2:
+    mutations_file: Pyclone/TCGA-BH-A0E2.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E6:
+    mutations_file: Pyclone/TCGA-BH-A0E6.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E7:
+    mutations_file: Pyclone/TCGA-BH-A0E7.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-BH-A0E9:
+    mutations_file: Pyclone/TCGA-BH-A0E9.yaml
+
+    tumour_content:
+      value: 0.265
+
+    error_rate: 0.001
+
+  TCGA-BH-A0EA:
+    mutations_file: Pyclone/TCGA-BH-A0EA.yaml
+
+    tumour_content:
+      value: 0.29
+
+    error_rate: 0.001
+
+  TCGA-BH-A0EB:
+    mutations_file: Pyclone/TCGA-BH-A0EB.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A0EE:
+    mutations_file: Pyclone/TCGA-BH-A0EE.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-BH-A0EI:
+    mutations_file: Pyclone/TCGA-BH-A0EI.yaml
+
+    tumour_content:
+      value: 0.16
+
+    error_rate: 0.001
+
+  TCGA-BH-A0GY:
+    mutations_file: Pyclone/TCGA-BH-A0GY.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A0GZ:
+    mutations_file: Pyclone/TCGA-BH-A0GZ.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A0H0:
+    mutations_file: Pyclone/TCGA-BH-A0H0.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A0H3:
+    mutations_file: Pyclone/TCGA-BH-A0H3.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-BH-A0H6:
+    mutations_file: Pyclone/TCGA-BH-A0H6.yaml
+
+    tumour_content:
+      value: 0.195
+
+    error_rate: 0.001
+
+  TCGA-BH-A0H7:
+    mutations_file: Pyclone/TCGA-BH-A0H7.yaml
+
+    tumour_content:
+      value: 0.14
+
+    error_rate: 0.001
+
+  TCGA-BH-A0H9:
+    mutations_file: Pyclone/TCGA-BH-A0H9.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HB:
+    mutations_file: Pyclone/TCGA-BH-A0HB.yaml
+
+    tumour_content:
+      value: 0.28
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HI:
+    mutations_file: Pyclone/TCGA-BH-A0HI.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HK:
+    mutations_file: Pyclone/TCGA-BH-A0HK.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HL:
+    mutations_file: Pyclone/TCGA-BH-A0HL.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HN:
+    mutations_file: Pyclone/TCGA-BH-A0HN.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HO:
+    mutations_file: Pyclone/TCGA-BH-A0HO.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HP:
+    mutations_file: Pyclone/TCGA-BH-A0HP.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HQ:
+    mutations_file: Pyclone/TCGA-BH-A0HQ.yaml
+
+    tumour_content:
+      value: 0.58
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HU:
+    mutations_file: Pyclone/TCGA-BH-A0HU.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HW:
+    mutations_file: Pyclone/TCGA-BH-A0HW.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HX:
+    mutations_file: Pyclone/TCGA-BH-A0HX.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-BH-A0HY:
+    mutations_file: Pyclone/TCGA-BH-A0HY.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-BH-A0W3:
+    mutations_file: Pyclone/TCGA-BH-A0W3.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-BH-A0W4:
+    mutations_file: Pyclone/TCGA-BH-A0W4.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A0W5:
+    mutations_file: Pyclone/TCGA-BH-A0W5.yaml
+
+    tumour_content:
+      value: 0.415
+
+    error_rate: 0.001
+
+  TCGA-BH-A0W7:
+    mutations_file: Pyclone/TCGA-BH-A0W7.yaml
+
+    tumour_content:
+      value: 0.555
+
+    error_rate: 0.001
+
+  TCGA-BH-A0WA:
+    mutations_file: Pyclone/TCGA-BH-A0WA.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A18F:
+    mutations_file: Pyclone/TCGA-BH-A18F.yaml
+
+    tumour_content:
+      value: 0.28
+
+    error_rate: 0.001
+
+  TCGA-BH-A18H:
+    mutations_file: Pyclone/TCGA-BH-A18H.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-BH-A18I:
+    mutations_file: Pyclone/TCGA-BH-A18I.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A18J:
+    mutations_file: Pyclone/TCGA-BH-A18J.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-BH-A18K:
+    mutations_file: Pyclone/TCGA-BH-A18K.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A18L:
+    mutations_file: Pyclone/TCGA-BH-A18L.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-BH-A18M:
+    mutations_file: Pyclone/TCGA-BH-A18M.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-BH-A18N:
+    mutations_file: Pyclone/TCGA-BH-A18N.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A18Q:
+    mutations_file: Pyclone/TCGA-BH-A18Q.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A18R:
+    mutations_file: Pyclone/TCGA-BH-A18R.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A18S:
+    mutations_file: Pyclone/TCGA-BH-A18S.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A18T:
+    mutations_file: Pyclone/TCGA-BH-A18T.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A18U:
+    mutations_file: Pyclone/TCGA-BH-A18U.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A18V:
+    mutations_file: Pyclone/TCGA-BH-A18V.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EN:
+    mutations_file: Pyclone/TCGA-BH-A1EN.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EO:
+    mutations_file: Pyclone/TCGA-BH-A1EO.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-BH-A1ES:
+    mutations_file: Pyclone/TCGA-BH-A1ES.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-BH-A1ET:
+    mutations_file: Pyclone/TCGA-BH-A1ET.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EU:
+    mutations_file: Pyclone/TCGA-BH-A1EU.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EV:
+    mutations_file: Pyclone/TCGA-BH-A1EV.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EW:
+    mutations_file: Pyclone/TCGA-BH-A1EW.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EX:
+    mutations_file: Pyclone/TCGA-BH-A1EX.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A1EY:
+    mutations_file: Pyclone/TCGA-BH-A1EY.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A1F2:
+    mutations_file: Pyclone/TCGA-BH-A1F2.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-BH-A1F5:
+    mutations_file: Pyclone/TCGA-BH-A1F5.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-BH-A1F6:
+    mutations_file: Pyclone/TCGA-BH-A1F6.yaml
+
+    tumour_content:
+      value: 0.28
+
+    error_rate: 0.001
+
+  TCGA-BH-A1F8:
+    mutations_file: Pyclone/TCGA-BH-A1F8.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FC:
+    mutations_file: Pyclone/TCGA-BH-A1FC.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FD:
+    mutations_file: Pyclone/TCGA-BH-A1FD.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FE:
+    mutations_file: Pyclone/TCGA-BH-A1FE.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FG:
+    mutations_file: Pyclone/TCGA-BH-A1FG.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FJ:
+    mutations_file: Pyclone/TCGA-BH-A1FJ.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FL:
+    mutations_file: Pyclone/TCGA-BH-A1FL.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FM:
+    mutations_file: Pyclone/TCGA-BH-A1FM.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FN:
+    mutations_file: Pyclone/TCGA-BH-A1FN.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FR:
+    mutations_file: Pyclone/TCGA-BH-A1FR.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-BH-A1FU:
+    mutations_file: Pyclone/TCGA-BH-A1FU.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-BH-A201:
+    mutations_file: Pyclone/TCGA-BH-A201.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-BH-A202:
+    mutations_file: Pyclone/TCGA-BH-A202.yaml
+
+    tumour_content:
+      value: 0.26
+
+    error_rate: 0.001
+
+  TCGA-BH-A203:
+    mutations_file: Pyclone/TCGA-BH-A203.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A204:
+    mutations_file: Pyclone/TCGA-BH-A204.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A208:
+    mutations_file: Pyclone/TCGA-BH-A208.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-BH-A209:
+    mutations_file: Pyclone/TCGA-BH-A209.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BH-A28O:
+    mutations_file: Pyclone/TCGA-BH-A28O.yaml
+
+    tumour_content:
+      value: 0.19
+
+    error_rate: 0.001
+
+  TCGA-BH-A28Q:
+    mutations_file: Pyclone/TCGA-BH-A28Q.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-BL-A0C8:
+    mutations_file: Pyclone/TCGA-BL-A0C8.yaml
+
+    tumour_content:
+      value: 0.55
+
+    error_rate: 0.001
+
+  TCGA-BL-A13I:
+    mutations_file: Pyclone/TCGA-BL-A13I.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-BL-A13J:
+    mutations_file: Pyclone/TCGA-BL-A13J.yaml
+
+    tumour_content:
+      value: 0.65
+
+    error_rate: 0.001
+
+  TCGA-BL-A3JM:
+    mutations_file: Pyclone/TCGA-BL-A3JM.yaml
+
+    tumour_content:
+      value: 0.65
+
+    error_rate: 0.001
+
+  TCGA-BT-A0S7:
+    mutations_file: Pyclone/TCGA-BT-A0S7.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BT-A0YX:
+    mutations_file: Pyclone/TCGA-BT-A0YX.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BT-A20J:
+    mutations_file: Pyclone/TCGA-BT-A20J.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-BT-A20N:
+    mutations_file: Pyclone/TCGA-BT-A20N.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-BT-A20O:
+    mutations_file: Pyclone/TCGA-BT-A20O.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BT-A20P:
+    mutations_file: Pyclone/TCGA-BT-A20P.yaml
+
+    tumour_content:
+      value: 1
+
+    error_rate: 0.001
+
+  TCGA-BT-A20Q:
+    mutations_file: Pyclone/TCGA-BT-A20Q.yaml
+
+    tumour_content:
+      value: 1
+
+    error_rate: 0.001
+
+  TCGA-BT-A20R:
+    mutations_file: Pyclone/TCGA-BT-A20R.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BT-A20T:
+    mutations_file: Pyclone/TCGA-BT-A20T.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-BT-A20U:
+    mutations_file: Pyclone/TCGA-BT-A20U.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-BT-A20V:
+    mutations_file: Pyclone/TCGA-BT-A20V.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BT-A20W:
+    mutations_file: Pyclone/TCGA-BT-A20W.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BT-A20X:
+    mutations_file: Pyclone/TCGA-BT-A20X.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BT-A2LA:
+    mutations_file: Pyclone/TCGA-BT-A2LA.yaml
+
+    tumour_content:
+      value: 0.95
+
+    error_rate: 0.001
+
+  TCGA-BT-A2LB:
+    mutations_file: Pyclone/TCGA-BT-A2LB.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-BT-A3PH:
+    mutations_file: Pyclone/TCGA-BT-A3PH.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-BT-A3PJ:
+    mutations_file: Pyclone/TCGA-BT-A3PJ.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-BT-A3PK:
+    mutations_file: Pyclone/TCGA-BT-A3PK.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-BT-A42C:
+    mutations_file: Pyclone/TCGA-BT-A42C.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-C4-A0EZ:
+    mutations_file: Pyclone/TCGA-C4-A0EZ.yaml
+
+    tumour_content:
+      value: 0.72
+
+    error_rate: 0.001
+
+  TCGA-C4-A0F1:
+    mutations_file: Pyclone/TCGA-C4-A0F1.yaml
+
+    tumour_content:
+      value: 0.665
+
+    error_rate: 0.001
+
+  TCGA-C4-A0F6:
+    mutations_file: Pyclone/TCGA-C4-A0F6.yaml
+
+    tumour_content:
+      value: 0.725
+
+    error_rate: 0.001
+
+  TCGA-C4-A0F7:
+    mutations_file: Pyclone/TCGA-C4-A0F7.yaml
+
+    tumour_content:
+      value: 0.54
+
+    error_rate: 0.001
+
+  TCGA-C8-A12K:
+    mutations_file: Pyclone/TCGA-C8-A12K.yaml
+
+    tumour_content:
+      value: 0.5
+
+    error_rate: 0.001
+
+  TCGA-C8-A12L:
+    mutations_file: Pyclone/TCGA-C8-A12L.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-C8-A12M:
+    mutations_file: Pyclone/TCGA-C8-A12M.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-C8-A12N:
+    mutations_file: Pyclone/TCGA-C8-A12N.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-C8-A12P:
+    mutations_file: Pyclone/TCGA-C8-A12P.yaml
+
+    tumour_content:
+      value: 0.49
+
+    error_rate: 0.001
+
+  TCGA-C8-A12Q:
+    mutations_file: Pyclone/TCGA-C8-A12Q.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-C8-A12T:
+    mutations_file: Pyclone/TCGA-C8-A12T.yaml
+
+    tumour_content:
+      value: 0.58
+
+    error_rate: 0.001
+
+  TCGA-C8-A12U:
+    mutations_file: Pyclone/TCGA-C8-A12U.yaml
+
+    tumour_content:
+      value: 0.49
+
+    error_rate: 0.001
+
+  TCGA-C8-A12W:
+    mutations_file: Pyclone/TCGA-C8-A12W.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-C8-A12X:
+    mutations_file: Pyclone/TCGA-C8-A12X.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-C8-A12Y:
+    mutations_file: Pyclone/TCGA-C8-A12Y.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-C8-A12Z:
+    mutations_file: Pyclone/TCGA-C8-A12Z.yaml
+
+    tumour_content:
+      value: 0.255
+
+    error_rate: 0.001
+
+  TCGA-C8-A130:
+    mutations_file: Pyclone/TCGA-C8-A130.yaml
+
+    tumour_content:
+      value: 0.62
+
+    error_rate: 0.001
+
+  TCGA-C8-A131:
+    mutations_file: Pyclone/TCGA-C8-A131.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-C8-A132:
+    mutations_file: Pyclone/TCGA-C8-A132.yaml
+
+    tumour_content:
+      value: 0.62
+
+    error_rate: 0.001
+
+  TCGA-C8-A134:
+    mutations_file: Pyclone/TCGA-C8-A134.yaml
+
+    tumour_content:
+      value: 0.325
+
+    error_rate: 0.001
+
+  TCGA-C8-A135:
+    mutations_file: Pyclone/TCGA-C8-A135.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-C8-A137:
+    mutations_file: Pyclone/TCGA-C8-A137.yaml
+
+    tumour_content:
+      value: 0.485
+
+    error_rate: 0.001
+
+  TCGA-C8-A138:
+    mutations_file: Pyclone/TCGA-C8-A138.yaml
+
+    tumour_content:
+      value: 0.44
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HE:
+    mutations_file: Pyclone/TCGA-C8-A1HE.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HF:
+    mutations_file: Pyclone/TCGA-C8-A1HF.yaml
+
+    tumour_content:
+      value: 0.67
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HG:
+    mutations_file: Pyclone/TCGA-C8-A1HG.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HI:
+    mutations_file: Pyclone/TCGA-C8-A1HI.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HJ:
+    mutations_file: Pyclone/TCGA-C8-A1HJ.yaml
+
+    tumour_content:
+      value: 0.63
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HK:
+    mutations_file: Pyclone/TCGA-C8-A1HK.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HL:
+    mutations_file: Pyclone/TCGA-C8-A1HL.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HM:
+    mutations_file: Pyclone/TCGA-C8-A1HM.yaml
+
+    tumour_content:
+      value: 0.56
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HN:
+    mutations_file: Pyclone/TCGA-C8-A1HN.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-C8-A1HO:
+    mutations_file: Pyclone/TCGA-C8-A1HO.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-C8-A26V:
+    mutations_file: Pyclone/TCGA-C8-A26V.yaml
+
+    tumour_content:
+      value: 0.58
+
+    error_rate: 0.001
+
+  TCGA-C8-A26W:
+    mutations_file: Pyclone/TCGA-C8-A26W.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-C8-A26X:
+    mutations_file: Pyclone/TCGA-C8-A26X.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-C8-A26Z:
+    mutations_file: Pyclone/TCGA-C8-A26Z.yaml
+
+    tumour_content:
+      value: 0.23
+
+    error_rate: 0.001
+
+  TCGA-C8-A273:
+    mutations_file: Pyclone/TCGA-C8-A273.yaml
+
+    tumour_content:
+      value: 0.46
+
+    error_rate: 0.001
+
+  TCGA-C8-A274:
+    mutations_file: Pyclone/TCGA-C8-A274.yaml
+
+    tumour_content:
+      value: 0.37
+
+    error_rate: 0.001
+
+  TCGA-C8-A275:
+    mutations_file: Pyclone/TCGA-C8-A275.yaml
+
+    tumour_content:
+      value: 0.28
+
+    error_rate: 0.001
+
+  TCGA-C8-A278:
+    mutations_file: Pyclone/TCGA-C8-A278.yaml
+
+    tumour_content:
+      value: 0.32
+
+    error_rate: 0.001
+
+  TCGA-C8-A27A:
+    mutations_file: Pyclone/TCGA-C8-A27A.yaml
+
+    tumour_content:
+      value: 0.42
+
+    error_rate: 0.001
+
+  TCGA-C8-A27B:
+    mutations_file: Pyclone/TCGA-C8-A27B.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-C8-A3M7:
+    mutations_file: Pyclone/TCGA-C8-A3M7.yaml
+
+    tumour_content:
+      value: 0.04
+
+    error_rate: 0.001
+
+  TCGA-C8-A3M8:
+    mutations_file: Pyclone/TCGA-C8-A3M8.yaml
+
+    tumour_content:
+      value: 0.51
+
+    error_rate: 0.001
+
+  TCGA-CA-5796:
+    mutations_file: Pyclone/TCGA-CA-5796.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-CA-5797:
+    mutations_file: Pyclone/TCGA-CA-5797.yaml
+
+    tumour_content:
+      value: 0.745
+
+    error_rate: 0.001
+
+  TCGA-CA-6716:
+    mutations_file: Pyclone/TCGA-CA-6716.yaml
+
+    tumour_content:
+      value: 0.71
+
+    error_rate: 0.001
+
+  TCGA-CA-6719:
+    mutations_file: Pyclone/TCGA-CA-6719.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-CF-A1HR:
+    mutations_file: Pyclone/TCGA-CF-A1HR.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CF-A1HS:
+    mutations_file: Pyclone/TCGA-CF-A1HS.yaml
+
+    tumour_content:
+      value: 0.65
+
+    error_rate: 0.001
+
+  TCGA-CF-A27C:
+    mutations_file: Pyclone/TCGA-CF-A27C.yaml
+
+    tumour_content:
+      value: 0.84
+
+    error_rate: 0.001
+
+  TCGA-CF-A3MF:
+    mutations_file: Pyclone/TCGA-CF-A3MF.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CF-A3MG:
+    mutations_file: Pyclone/TCGA-CF-A3MG.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CF-A3MH:
+    mutations_file: Pyclone/TCGA-CF-A3MH.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CF-A3MI:
+    mutations_file: Pyclone/TCGA-CF-A3MI.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CK-4947:
+    mutations_file: Pyclone/TCGA-CK-4947.yaml
+
+    tumour_content:
+      value: 0.775
+
+    error_rate: 0.001
+
+  TCGA-CK-4948:
+    mutations_file: Pyclone/TCGA-CK-4948.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-CK-4950:
+    mutations_file: Pyclone/TCGA-CK-4950.yaml
+
+    tumour_content:
+      value: 0.535
+
+    error_rate: 0.001
+
+  TCGA-CK-4952:
+    mutations_file: Pyclone/TCGA-CK-4952.yaml
+
+    tumour_content:
+      value: 0.465
+
+    error_rate: 0.001
+
+  TCGA-CK-5912:
+    mutations_file: Pyclone/TCGA-CK-5912.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CK-5913:
+    mutations_file: Pyclone/TCGA-CK-5913.yaml
+
+    tumour_content:
+      value: 0.78
+
+    error_rate: 0.001
+
+  TCGA-CK-5914:
+    mutations_file: Pyclone/TCGA-CK-5914.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CK-5915:
+    mutations_file: Pyclone/TCGA-CK-5915.yaml
+
+    tumour_content:
+      value: 0.94
+
+    error_rate: 0.001
+
+  TCGA-CK-5916:
+    mutations_file: Pyclone/TCGA-CK-5916.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CM-4743:
+    mutations_file: Pyclone/TCGA-CM-4743.yaml
+
+    tumour_content:
+      value: 0.895
+
+    error_rate: 0.001
+
+  TCGA-CM-4746:
+    mutations_file: Pyclone/TCGA-CM-4746.yaml
+
+    tumour_content:
+      value: 0.725
+
+    error_rate: 0.001
+
+  TCGA-CM-4747:
+    mutations_file: Pyclone/TCGA-CM-4747.yaml
+
+    tumour_content:
+      value: 0.77
+
+    error_rate: 0.001
+
+  TCGA-CM-4748:
+    mutations_file: Pyclone/TCGA-CM-4748.yaml
+
+    tumour_content:
+      value: 0.825
+
+    error_rate: 0.001
+
+  TCGA-CM-4750:
+    mutations_file: Pyclone/TCGA-CM-4750.yaml
+
+    tumour_content:
+      value: 0.675
+
+    error_rate: 0.001
+
+  TCGA-CM-4752:
+    mutations_file: Pyclone/TCGA-CM-4752.yaml
+
+    tumour_content:
+      value: 0.64
+
+    error_rate: 0.001
+
+  TCGA-CM-5341:
+    mutations_file: Pyclone/TCGA-CM-5341.yaml
+
+    tumour_content:
+      value: 0.82
+
+    error_rate: 0.001
+
+  TCGA-CM-5344:
+    mutations_file: Pyclone/TCGA-CM-5344.yaml
+
+    tumour_content:
+      value: 0.965
+
+    error_rate: 0.001
+
+  TCGA-CM-5348:
+    mutations_file: Pyclone/TCGA-CM-5348.yaml
+
+    tumour_content:
+      value: 0.915
+
+    error_rate: 0.001
+
+  TCGA-CM-5349:
+    mutations_file: Pyclone/TCGA-CM-5349.yaml
+
+    tumour_content:
+      value: 0.615
+
+    error_rate: 0.001
+
+  TCGA-CM-5860:
+    mutations_file: Pyclone/TCGA-CM-5860.yaml
+
+    tumour_content:
+      value: 0.95
+
+    error_rate: 0.001
+
+  TCGA-CM-5862:
+    mutations_file: Pyclone/TCGA-CM-5862.yaml
+
+    tumour_content:
+      value: 0.99
+
+    error_rate: 0.001
+
+  TCGA-CM-5863:
+    mutations_file: Pyclone/TCGA-CM-5863.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CM-5864:
+    mutations_file: Pyclone/TCGA-CM-5864.yaml
+
+    tumour_content:
+      value: 0.945
+
+    error_rate: 0.001
+
+  TCGA-CM-5868:
+    mutations_file: Pyclone/TCGA-CM-5868.yaml
+
+    tumour_content:
+      value: 0.885
+
+    error_rate: 0.001
+
+  TCGA-CM-6161:
+    mutations_file: Pyclone/TCGA-CM-6161.yaml
+
+    tumour_content:
+      value: 0.77
+
+    error_rate: 0.001
+
+  TCGA-CM-6163:
+    mutations_file: Pyclone/TCGA-CM-6163.yaml
+
+    tumour_content:
+      value: 0.65
+
+    error_rate: 0.001
+
+  TCGA-CM-6164:
+    mutations_file: Pyclone/TCGA-CM-6164.yaml
+
+    tumour_content:
+      value: 0.805
+
+    error_rate: 0.001
+
+  TCGA-CM-6165:
+    mutations_file: Pyclone/TCGA-CM-6165.yaml
+
+    tumour_content:
+      value: 0.64
+
+    error_rate: 0.001
+
+  TCGA-CM-6166:
+    mutations_file: Pyclone/TCGA-CM-6166.yaml
+
+    tumour_content:
+      value: 0.72
+
+    error_rate: 0.001
+
+  TCGA-CM-6168:
+    mutations_file: Pyclone/TCGA-CM-6168.yaml
+
+    tumour_content:
+      value: 0.595
+
+    error_rate: 0.001
+
+  TCGA-CM-6169:
+    mutations_file: Pyclone/TCGA-CM-6169.yaml
+
+    tumour_content:
+      value: 0.74
+
+    error_rate: 0.001
+
+  TCGA-CM-6170:
+    mutations_file: Pyclone/TCGA-CM-6170.yaml
+
+    tumour_content:
+      value: 0.625
+
+    error_rate: 0.001
+
+  TCGA-CM-6171:
+    mutations_file: Pyclone/TCGA-CM-6171.yaml
+
+    tumour_content:
+      value: 0.815
+
+    error_rate: 0.001
+
+  TCGA-CM-6172:
+    mutations_file: Pyclone/TCGA-CM-6172.yaml
+
+    tumour_content:
+      value: 0.65
+
+    error_rate: 0.001
+
+  TCGA-CM-6674:
+    mutations_file: Pyclone/TCGA-CM-6674.yaml
+
+    tumour_content:
+      value: 0.64
+
+    error_rate: 0.001
+
+  TCGA-CM-6675:
+    mutations_file: Pyclone/TCGA-CM-6675.yaml
+
+    tumour_content:
+      value: 0.775
+
+    error_rate: 0.001
+
+  TCGA-CM-6676:
+    mutations_file: Pyclone/TCGA-CM-6676.yaml
+
+    tumour_content:
+      value: 0.71
+
+    error_rate: 0.001
+
+  TCGA-CM-6677:
+    mutations_file: Pyclone/TCGA-CM-6677.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CM-6678:
+    mutations_file: Pyclone/TCGA-CM-6678.yaml
+
+    tumour_content:
+      value: 0.825
+
+    error_rate: 0.001
+
+  TCGA-CM-6680:
+    mutations_file: Pyclone/TCGA-CM-6680.yaml
+
+    tumour_content:
+      value: 0.84
+
+    error_rate: 0.001
+
+  TCGA-CN-4725:
+    mutations_file: Pyclone/TCGA-CN-4725.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CN-4726:
+    mutations_file: Pyclone/TCGA-CN-4726.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CN-4727:
+    mutations_file: Pyclone/TCGA-CN-4727.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-4728:
+    mutations_file: Pyclone/TCGA-CN-4728.yaml
+
+    tumour_content:
+      value: 0.575
+
+    error_rate: 0.001
+
+  TCGA-CN-4729:
+    mutations_file: Pyclone/TCGA-CN-4729.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-4730:
+    mutations_file: Pyclone/TCGA-CN-4730.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-CN-4731:
+    mutations_file: Pyclone/TCGA-CN-4731.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-CN-4735:
+    mutations_file: Pyclone/TCGA-CN-4735.yaml
+
+    tumour_content:
+      value: 0.845
+
+    error_rate: 0.001
+
+  TCGA-CN-4736:
+    mutations_file: Pyclone/TCGA-CN-4736.yaml
+
+    tumour_content:
+      value: 0.82
+
+    error_rate: 0.001
+
+  TCGA-CN-4737:
+    mutations_file: Pyclone/TCGA-CN-4737.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CN-4738:
+    mutations_file: Pyclone/TCGA-CN-4738.yaml
+
+    tumour_content:
+      value: 0.575
+
+    error_rate: 0.001
+
+  TCGA-CN-4739:
+    mutations_file: Pyclone/TCGA-CN-4739.yaml
+
+    tumour_content:
+      value: 0.875
+
+    error_rate: 0.001
+
+  TCGA-CN-4740:
+    mutations_file: Pyclone/TCGA-CN-4740.yaml
+
+    tumour_content:
+      value: 0.39
+
+    error_rate: 0.001
+
+  TCGA-CN-4741:
+    mutations_file: Pyclone/TCGA-CN-4741.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CN-4742:
+    mutations_file: Pyclone/TCGA-CN-4742.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-CN-5355:
+    mutations_file: Pyclone/TCGA-CN-5355.yaml
+
+    tumour_content:
+      value: 0.575
+
+    error_rate: 0.001
+
+  TCGA-CN-5356:
+    mutations_file: Pyclone/TCGA-CN-5356.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-5359:
+    mutations_file: Pyclone/TCGA-CN-5359.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CN-5360:
+    mutations_file: Pyclone/TCGA-CN-5360.yaml
+
+    tumour_content:
+      value: 0.675
+
+    error_rate: 0.001
+
+  TCGA-CN-5363:
+    mutations_file: Pyclone/TCGA-CN-5363.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CN-5365:
+    mutations_file: Pyclone/TCGA-CN-5365.yaml
+
+    tumour_content:
+      value: 0.965
+
+    error_rate: 0.001
+
+  TCGA-CN-5366:
+    mutations_file: Pyclone/TCGA-CN-5366.yaml
+
+    tumour_content:
+      value: 0.7
+
+    error_rate: 0.001
+
+  TCGA-CN-5367:
+    mutations_file: Pyclone/TCGA-CN-5367.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-5369:
+    mutations_file: Pyclone/TCGA-CN-5369.yaml
+
+    tumour_content:
+      value: 0.9
+
+    error_rate: 0.001
+
+  TCGA-CN-5370:
+    mutations_file: Pyclone/TCGA-CN-5370.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CN-5373:
+    mutations_file: Pyclone/TCGA-CN-5373.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-5374:
+    mutations_file: Pyclone/TCGA-CN-5374.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CN-6010:
+    mutations_file: Pyclone/TCGA-CN-6010.yaml
+
+    tumour_content:
+      value: 0.85
+
+    error_rate: 0.001
+
+  TCGA-CN-6011:
+    mutations_file: Pyclone/TCGA-CN-6011.yaml
+
+    tumour_content:
+      value: 0.925
+
+    error_rate: 0.001
+
+  TCGA-CN-6012:
+    mutations_file: Pyclone/TCGA-CN-6012.yaml
+
+    tumour_content:
+      value: 0.785
+
+    error_rate: 0.001
+
+  TCGA-CN-6013:
+    mutations_file: Pyclone/TCGA-CN-6013.yaml
+
+    tumour_content:
+      value: 0.835
+
+    error_rate: 0.001
+
+  TCGA-CN-6016:
+    mutations_file: Pyclone/TCGA-CN-6016.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-6018:
+    mutations_file: Pyclone/TCGA-CN-6018.yaml
+
+    tumour_content:
+      value: 0.6
+
+    error_rate: 0.001
+
+  TCGA-CN-6019:
+    mutations_file: Pyclone/TCGA-CN-6019.yaml
+
+    tumour_content:
+      value: 0.25
+
+    error_rate: 0.001
+
+  TCGA-CN-6020:
+    mutations_file: Pyclone/TCGA-CN-6020.yaml
+
+    tumour_content:
+      value: 0.67
+
+    error_rate: 0.001
+
+  TCGA-CN-6021:
+    mutations_file: Pyclone/TCGA-CN-6021.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-CN-6022:
+    mutations_file: Pyclone/TCGA-CN-6022.yaml
+
+    tumour_content:
+      value: 0.8
+
+    error_rate: 0.001
+
+  TCGA-CN-6023:
+    mutations_file: Pyclone/TCGA-CN-6023.yaml
+
+    tumour_content:
+      value: 0.89
+
+    error_rate: 0.001
+
+  TCGA-CN-6024:
+    mutations_file: Pyclone/TCGA-CN-6024.yaml
+
+    tumour_content:
+      value: 0.75
+
+    error_rate: 0.001
+
+  TCGA-CN-6988:
+    mutations_file: Pyclone/TCGA-CN-6988.yaml
+
+    tumour_content:
+      value: 0.84
+
+    error_rate: 0.001
+
+  TCGA-CN-6989:
+    mutations_file: Pyclone/TCGA-CN-6989.yaml
+
+    tumour_content:
+      value: 0.625
+
+    error_rate: 0.001
+
+  TCGA-CN-6992:
+    mutations_file: Pyclone/TCGA-CN-6992.yaml
+
+    tumour_content:
+      value: 0.86
+
+    error_rate: 0.001
+

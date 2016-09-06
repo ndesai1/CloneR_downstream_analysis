@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww21760\viewh11680\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Within the following folder you will find:\
+BLCA.mutation.table.txt - this is the same mutation table as in ../Input\
+tcga.blca.seg.hg19.rdata - this is the same segmented matrix format as in ../Input\
+example.script.r - this is an example script to install and run clonality estimation functions for one sample. If this does not work, the individual functions can be found within EstimateClonality\
+In brief, the main output is a tab-separated value table. The following columns are included in the output:\
+ \
+ [1] "patient"  #Patient identifier;\
+ [2] "TCGA.purity"  # ASCAT tumor purity estimate;\
+ [3] "mutation_id" # mutation id;\
+ [4] "Reference_Base" # reference base; \
+ [5] "Alternate_Base" # alternate base;\
+ [6] "ref_counts" # number of reads supporting reference base;\
+ [7] "var_counts" # number of reads supporting variant base;\
+ [8] "obs.VAF" # observed variant allele frequency;\
+ [9] "normal_cn" # local normal copy number at mutation site;\
+ [10] "minor_cn" # local minor allele copy number at mutation site;\
+ [11] "major_cn" # local major allele copy number at mutation site;\
+ [12] "mut.multi" # mutation multiplicity (number of copies of mutant allele);\
+
+\b [13] "absolute.ccf" # estimated cancer cell fraction;\
+[14] "absolute.ccf.0.05" # CI of ccf;\
+[15] "absolute.ccf.0.95" # CI of ccf;
+\b0 \
+[16 "prob.clonal";      \
+[17] "prob.subclonal";    \
+[18] "GD.status";        \
+[19] "timing" # timing based on copy number;\
+[20] "comb.timing" # timing based on clonality and copy number;\
+\
+}
