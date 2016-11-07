@@ -1,3 +1,4 @@
+## Changes
 pkgs = c('RColorBrewer','plyr','ggplot2','GenomicRanges','wordcloud','reshape2','grid', 'optparse')
 lib = installed.packages()
 installed=pkgs %in% rownames(lib)
